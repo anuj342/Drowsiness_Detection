@@ -14,8 +14,14 @@ The example code is in Python ([version 2.7](https://www.python.org/download/rel
 
 1) import cv2
 2) import imutils
-3) import dlib
-4) import scipy
+3) import scipy
+4) import numpy
+
+**Update:** This project has been refactored to use **OpenCV's Haar Cascade classifiers** for face and eye detection instead of dlib. This provides:
+- ✅ **No external model files needed** - The cascade files are built into OpenCV
+- ✅ **Easy installation** - No compilation required, works on all platforms
+- ✅ **Lightweight** - Minimal dependencies
+- ✅ **Good performance** - Suitable for real-time detection on most systems
 
 
 ### Description 📌
